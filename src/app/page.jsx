@@ -23,51 +23,52 @@ export default function Home() {
 
         {/* ----- AUTHENTICITY IN EVERY DESIGN ----- */}
         <ImageOpenSection />
-        {/* ------ Products ------ */}
-        {/* <article className="px-section max-w-screen-2xl mx-auto section-spacing grid md:grid-cols-[1fr_3fr] gap-6 md:gap-12">
-        
-        <div className="flex md:flex-col justify-between">
-          <Copy>
-            <h2 className="h2-medium">
-              Every <br />
-              product <br />
-              tells a <br />
-              story
-            </h2>
-          </Copy>
-          <Copy>
-            <p className="h2-small uppercase">Products</p>
-          </Copy>
-        </div>
-
-        <div className="flex flex-col md:flex-row gap-6 md:gap-16">
-          <ImageReveal>
-            <Image
-              src="/image/landing/stories.avif"
-              alt="A table with papers, a bonsai centerpiece, Gatti chairs and Genno chair in Ciotto."
-              width={1000} //
-              height={1000}
-              quality={100}
-              className="object-cover max-h-[650px]"
-            />
-          </ImageReveal>
-
-          <div className="flex flex-col justify-center gap-5">
-            <Copy>
-              <p>Handcrafted with care, each product celebrates the beauty of imperfection and the individuality of form. Inspired by everyday moments, the products are rooted in sustainable practices and a deep respect for materials where every product tells its own quiet story.</p>
-            </Copy>
-            <Button startAtTenPercent withCopy delayVariant={0.5} variant="primary" link="/products">
-              Go to products
-            </Button>
-          </div>
-        </div>
-      </article> */}
 
         {/* ----- Parralax ----- */}
         {/* <StickySections /> */}
         <LineAnimated />
+        {/* ------ Products ------ */}
+        <article className="px-section max-w-screen-2xl mx-auto section-spacing grid md:grid-cols-[1fr_3fr] gap-6 md:gap-12">
+          <div className="flex md:flex-col justify-between">
+            <Copy>
+              <h2 className="h2-medium">
+                Every <br />
+                product <br />
+                tells a <br />
+                story
+              </h2>
+            </Copy>
+            <Copy>
+              <p className="h2-small uppercase">Products</p>
+            </Copy>
+          </div>
 
-        {/* ------ About ------ */}
+          <div className="flex flex-col md:flex-row gap-6 md:gap-16">
+            <ImageReveal>
+              <Image
+                src="/image/landing/stories.avif"
+                alt="A table with papers, a bonsai centerpiece, Gatti chairs and Genno chair in Ciotto."
+                width={1000} //
+                height={1000}
+                quality={100}
+                className="object-cover max-h-[650px]"
+              />
+            </ImageReveal>
+
+            <div className="flex flex-col justify-center gap-5">
+              <Copy>
+                <p>Each object is made by hand – shaped by materials, time and touch. From sculptural ceramics to functional furniture, our products are designed to last and made to be felt. Every piece carries its own quiet presence, embracing individuality in form. Crafting objects that invite use, age with grace, and live naturally in their surroundings.</p>
+              </Copy>
+              <Button startAtTenPercent withCopy delayVariant={0.5} variant="primary" link="/products">
+                Go to products
+              </Button>
+            </div>
+          </div>
+        </article>
+
+        <LineAnimated inViewTrigger={true} />
+
+        {/* ------ Works ------ */}
         <article className="px-section max-w-screen-2xl mx-auto section-spacing w-full grid lg:grid-cols-[2fr_3fr] gap-16">
           {/* Venstre billede – kun vist på desktop */}
           <div className="hidden lg:block">
@@ -89,16 +90,16 @@ export default function Home() {
               <div className="flex flex-col gap-2">
                 <Copy>
                   <h2 className="h2-medium">
-                    How it <br />
-                    started
+                    Projects <br />
+                    by Ari
                   </h2>
                 </Copy>
                 <Copy>
-                  <p className="uppercase h3-small">Ai Prasetya & Spiros Loukopoulos </p>
+                  <p className="uppercase h3-small">Works from furniture to full interiors</p>
                 </Copy>
               </div>
               <Copy>
-                <p className="h2-small uppercase">About</p>
+                <p className="h2-small uppercase">Projects</p>
               </Copy>
             </div>
 
@@ -119,10 +120,10 @@ export default function Home() {
                 withCopy
                 delayVariant={0.5}
                 variant="primary"
-                link="/about"
+                link="/works"
                 className="self-start md:self-end"
               >
-                Go to about
+                Go to Projects
               </Button>
             </div>
           </div>
@@ -131,9 +132,9 @@ export default function Home() {
         <LineAnimated inViewTrigger={true} />
 
         {/* ------ Ciotto Bar ------ */}
-        <article className="px-section max-w-screen-2xl mx-auto section-spacing w-full">
+        {/* <article className="px-section max-w-screen-2xl mx-auto section-spacing w-full">
           <div className="grid grid-cols-[1fr_auto] md:flex md:flex-row justify-between gap-6 md:gap-16">
-            {/* Tekst og billede øverst til højre (på desktop) */}
+            
             <div className="col-start-2 col-span-2 row-start-1 md:flex md:flex-col md:justify-between">
               <Copy>
                 <p className="h2-small uppercase">Coffee Bar</p>
@@ -152,7 +153,7 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Overskrift, tekst og knap nederst til venstre */}
+
             <div className="col-start-1 col-span-2 row-start-1 row-span-1 flex flex-col md:justify-end gap-4 ">
               <Copy>
                 <h2 className="uppercase h2-medium">
@@ -169,7 +170,7 @@ export default function Home() {
               </Button>
             </div>
 
-            {/* Billede nederst i sektionen */}
+
             <div className="col-span-2 col-start-1 row-start-2">
               <ImageReveal>
                 <Image
@@ -183,7 +184,7 @@ export default function Home() {
               </ImageReveal>
             </div>
           </div>
-        </article>
+        </article> */}
       </section>
     </>
   );

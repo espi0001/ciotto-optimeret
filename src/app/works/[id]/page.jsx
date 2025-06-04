@@ -4,8 +4,8 @@ import WorkDetailLayout from "@/components/WorksDetails/WorkDetailLayout";
 import { getByColumn } from "@/utils/supabase/api";
 
 export const metadata = {
-  title: "Ciotto | Works",
-  description: "Works of Ari Prasetya",
+  title: "Ciotto | Projects",
+  description: "Projects of Ari Prasetya",
 };
 
 export default async function WorkDetail({ params }) {

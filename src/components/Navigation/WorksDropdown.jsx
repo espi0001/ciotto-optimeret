@@ -84,7 +84,7 @@ export default function WorksDropdown({ open, setOpen, hoveredIndex, setHoveredI
                     <motion.img
                       key="default"
                       src="/image/dropdown/andra_eatery.avif"
-                      alt="Ciotto Works"
+                      alt="Ciotto Projects"
                       initial={{
                         opacity: 0,
                         filter: "blur(10px)",

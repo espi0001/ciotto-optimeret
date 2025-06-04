@@ -1,5 +1,5 @@
 export const mainLinks = [
-  { label: "Works", href: "/works", dropdown: true },
+  { label: "Projects", href: "/works", dropdown: true },
   { label: "Products", href: "/products" },
   { label: "About", href: "/about" },
   { label: "Contact", href: "/contact" },
@@ -7,7 +7,7 @@ export const mainLinks = [
 ];
 
 export const worksLinks = [
-  { label: "All Works", href: "/works", image: "/image/dropdown/andra_eatery.avif" },
+  { label: "All Projects", href: "/works", image: "/image/dropdown/andra_eatery.avif" },
   { label: "Andra Eatery", href: "/works/andra-eatery", image: "/image/dropdown/andra_eatery.avif" },
   { label: "Beit Samla", href: "/works/beit-salma", image: "/image/dropdown/beit_salma.avif" },
   { label: "oi japanese tea", href: "/works/io-japanese-tea", image: "/image/dropdown/io_japanese_tea.avif" },

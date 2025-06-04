@@ -7,8 +7,8 @@ import Button from "@/components/UI/Button";
 const isLargeCard = (index) => [1, 2, 5, 6].includes(index); // Husk 0-indeks!
 
 export const metadata = {
-  title: "Ciotto | Works",
-  description: "Works of Ari Prasetya",
+  title: "Ciotto | Projects",
+  description: "Projects of Ari Prasetya",
 };
 
 export default async function Works() {
@@ -17,7 +17,7 @@ export default async function Works() {
   return (
     <section className="px-section max-w-screen-2xl mx-auto ">
       <article className="flex flex-col gap-8">
-        <TitleSection title="Works" description="Explore a selection of Ari’s previous collaborations. Ari’s work spans homes, restaurants, hotels and more — each piece shaped through close collaboration and thoughtful design. Browse the works — and reach out to start your own project together." />
+        <TitleSection title="Projects" description="Explore a selection of Ari’s previous collaborations. Ari’s work spans homes, restaurants, hotels and more — each piece shaped through close collaboration and thoughtful design. Browse the works — and reach out to start your own project together." />
 
         <Button withCopy delayVariant={1.5} variant="primary" link="/contact">
           Contact for inquiries
