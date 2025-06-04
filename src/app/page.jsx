@@ -129,8 +129,6 @@ export default function Home() {
           </div>
         </article>
 
-        <LineAnimated inViewTrigger={true} />
-
         {/* ------ Ciotto Bar ------ */}
         {/* <article className="px-section max-w-screen-2xl mx-auto section-spacing w-full">
           <div className="grid grid-cols-[1fr_auto] md:flex md:flex-row justify-between gap-6 md:gap-16">
