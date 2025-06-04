@@ -57,7 +57,7 @@ export default function Loader({ children }) {
     tl.to(".loading-image", {
       height: "350px",
       duration: 0.75,
-      stagger: 0.4,
+      stagger: 0.5,
       delay: 1,
     });
     return () => tl.kill();
