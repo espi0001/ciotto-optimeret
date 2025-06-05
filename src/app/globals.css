@@ -105,28 +105,28 @@ html {
 *::after {
   /* ☠️ = private */
 
-  /* default values */
+  /* Define default values */
   --fs-def: inherit;
   --fs-min: inherit;
   --fs-max: inherit;
 
-  /* viewport and font size delta */
+  /* Delta changes (has units) viewport and font size delta */
   --☠️-vp-delta: calc(var(--max-scale-bound) - var(--min-scale-bound));
   --☠️-fs-delta: calc(var(--fs-max) - var(--fs-min));
 
-  /* numeric delta values */
+  /* Striå units - numeric delta values */
   --☠️-vp-num: tan(atan2(var(--☠️-vp-delta), 1rem));
   --☠️-fs-num: tan(atan2(var(--☠️-fs-delta), 1rem));
 
-  /* mid range values (components) */
+  /* Mid value - mid range values (components) */
   --☠️-divisor: calc(var(--☠️-vp-num) / var(--☠️-fs-num));
   --☠️-vw-mid: calc(100vw / var(--☠️-divisor));
   --☠️-fs-mid: calc(var(--fs-min) - (var(--min-scale-bound) / var(--☠️-divisor)));
 
-  /* clamp value */
+  /* Clamp value */
   --☠️-fs-clamp: clamp(var(--fs-min), var(--☠️-vw-mid) + var(--☠️-fs-mid), var(--fs-max));
 
-  /* property value */
+  /* Assign to property value (note fallback order) */
   font-size: var(--fs, var(--☠️-fs-clamp, var(--fs-def, var(--fs-min, var(--fs-max)))));
 }
 
