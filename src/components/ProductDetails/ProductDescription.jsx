@@ -8,6 +8,7 @@ const ProductDescription = ({ description, price }) => {
       <div>
         <Copy startAtTenPercent="true" delay={1}>
           <h2 className="mb-4 font-bold h3-product">Description:</h2>
+          <p className="mb-2">Designed by Ari Prasetya</p>
           <p className="max-w-[64ch]">{description}</p>
         </Copy>
       </div>

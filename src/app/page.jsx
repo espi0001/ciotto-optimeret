@@ -57,7 +57,9 @@ export default function Home() {
 
             <div className="flex flex-col justify-center gap-5">
               <Copy>
-                <p>Each object is made by hand – shaped by materials, time and touch. From sculptural ceramics to functional furniture, our products are designed to last and made to be felt. Every piece carries its own quiet presence, embracing individuality in form. Crafting objects that invite use, age with grace, and live naturally in their surroundings.</p>
+                <p>Designed by Ari Prasetya.</p>
+                <p className="mb-2"></p>
+                <p>Each object is made by hand – shaped by materials, time and touch. From ceramics to functional furniture, our products are designed to last and made to be felt. Every piece carries its own quiet presence, embracing individuality in form. Crafting objects that invite use, age with grace, and live naturally in their surroundings.</p>
               </Copy>
               <Button startAtTenPercent withCopy delayVariant={0.5} variant="primary" link="/products">
                 Go to products
