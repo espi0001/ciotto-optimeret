@@ -81,7 +81,7 @@ export default function Home() {
                 width={1000} //
                 height={1000}
                 quality={100}
-                className="h-full max-w-fit object-cover"
+                className="h-full max-w-fit md:max-w-full object-cover"
               />
             </ImageReveal>
           </div>
@@ -113,7 +113,7 @@ export default function Home() {
                   width={1000} //
                   height={1000}
                   quality={100}
-                  className="md:max-w-[350px] h-full max-h-screen object-cover"
+                  className="md:max-w-[350px] max-w-full h-full max-h-screen object-cover"
                 />
               </ImageReveal>
 
